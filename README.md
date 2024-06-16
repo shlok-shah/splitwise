@@ -1,1 +1,3 @@
-# splitwise
+# Minimum Cash Flow Calculation
+
+This C++ program calculates the minimum cash flow required to settle debts among a group of people using a recursive algorithm. It takes transaction data provided in a 2D array format (`graph[NUM_PEOPLE][NUM_PEOPLE]`), where each element `graph[i][j]` denotes the amount person `i` owes to person `j`. The program computes and displays the minimal transactions needed to ensure all debts are settled efficiently, detailing who pays whom and the amounts transferred until balances are zero. Adjust the `NUM_PEOPLE` constant to match the number of individuals in your transaction data. Ensure non-negative integer amounts for transactions to work correctly.
