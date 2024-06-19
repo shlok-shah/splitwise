@@ -11,7 +11,7 @@ int findMinIndex(int arr[])
         if (arr[i] < arr[minIdx])
             minIdx = i;
     }
-    return minIdx; // Return the index of the smallest value
+    return minIdx; 
 }
 
 int findMaxIndex(int arr[])
